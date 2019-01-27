@@ -5,3 +5,7 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 	
 	It is an intermediate step between working directory and commit. It allows you to have more control over what you want to commit, e.g. only some of the files instead of all of them at once.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	By using git diff command to compare staging area and the most recent commit, or the working directory.
