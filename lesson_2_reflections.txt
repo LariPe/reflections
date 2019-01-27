@@ -14,3 +14,7 @@ What are some situations when branches would be helpful in keeping your history 
 
 	When I want to make some "significantly" different feature in the code, which is somewhat separate from the master code, e.g., 
 	own branch for MILP optimization when master branch is LP. This helps again with the fact that I don't need to save different versions of the code.
+
+How do the diagrams help you visualize the branch structure?
+	
+	By clearly showing the reachability of different commits, and the point in time where different branches were initialized.
