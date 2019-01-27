@@ -9,3 +9,8 @@ How is the staging area different from the working directory and the repository?
 How can you use the staging area to make sure you have one commit per logical change?
 
 	By using git diff command to compare staging area and the most recent commit, or the working directory.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When I want to make some "significantly" different feature in the code, which is somewhat separate from the master code, e.g., 
+	own branch for MILP optimization when master branch is LP. This helps again with the fact that I don't need to save different versions of the code.
