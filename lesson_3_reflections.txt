@@ -14,3 +14,7 @@ Describe the differences between forks, clones, and branches. When would you use
 	Branch belongs is a property of a repository and its commits. 
 
 	I would use forking when I don't have the permission to change the original repository, branching when I need some e.g experimental feature in my code, and cloning when I just need to copy an existing repository to my local machine.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	It enables easy comparison when you make changes to the local master branch.
